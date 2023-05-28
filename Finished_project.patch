@@ -1,0 +1,536 @@
+Index: .idea/codeStyles/Project.xml
+===================================================================
+diff --git a/.idea/codeStyles/Project.xml b/.idea/codeStyles/Project.xml
+deleted file mode 100644
+--- a/.idea/codeStyles/Project.xml	(revision dc2cef7f95d525f49ec143a616b202b1996deef4)
++++ /dev/null	(revision dc2cef7f95d525f49ec143a616b202b1996deef4)
+@@ -1,116 +0,0 @@
+-<component name="ProjectCodeStyleConfiguration">
+-  <code_scheme name="Project" version="173">
+-    <codeStyleSettings language="XML">
+-      <indentOptions>
+-        <option name="CONTINUATION_INDENT_SIZE" value="4" />
+-      </indentOptions>
+-      <arrangement>
+-        <rules>
+-          <section>
+-            <rule>
+-              <match>
+-                <AND>
+-                  <NAME>xmlns:android</NAME>
+-                  <XML_ATTRIBUTE />
+-                  <XML_NAMESPACE>^$</XML_NAMESPACE>
+-                </AND>
+-              </match>
+-            </rule>
+-          </section>
+-          <section>
+-            <rule>
+-              <match>
+-                <AND>
+-                  <NAME>xmlns:.*</NAME>
+-                  <XML_ATTRIBUTE />
+-                  <XML_NAMESPACE>^$</XML_NAMESPACE>
+-                </AND>
+-              </match>
+-              <order>BY_NAME</order>
+-            </rule>
+-          </section>
+-          <section>
+-            <rule>
+-              <match>
+-                <AND>
+-                  <NAME>.*:id</NAME>
+-                  <XML_ATTRIBUTE />
+-                  <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+-                </AND>
+-              </match>
+-            </rule>
+-          </section>
+-          <section>
+-            <rule>
+-              <match>
+-                <AND>
+-                  <NAME>.*:name</NAME>
+-                  <XML_ATTRIBUTE />
+-                  <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+-                </AND>
+-              </match>
+-            </rule>
+-          </section>
+-          <section>
+-            <rule>
+-              <match>
+-                <AND>
+-                  <NAME>name</NAME>
+-                  <XML_ATTRIBUTE />
+-                  <XML_NAMESPACE>^$</XML_NAMESPACE>
+-                </AND>
+-              </match>
+-            </rule>
+-          </section>
+-          <section>
+-            <rule>
+-              <match>
+-                <AND>
+-                  <NAME>style</NAME>
+-                  <XML_ATTRIBUTE />
+-                  <XML_NAMESPACE>^$</XML_NAMESPACE>
+-                </AND>
+-              </match>
+-            </rule>
+-          </section>
+-          <section>
+-            <rule>
+-              <match>
+-                <AND>
+-                  <NAME>.*</NAME>
+-                  <XML_ATTRIBUTE />
+-                  <XML_NAMESPACE>^$</XML_NAMESPACE>
+-                </AND>
+-              </match>
+-              <order>BY_NAME</order>
+-            </rule>
+-          </section>
+-          <section>
+-            <rule>
+-              <match>
+-                <AND>
+-                  <NAME>.*</NAME>
+-                  <XML_ATTRIBUTE />
+-                  <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+-                </AND>
+-              </match>
+-              <order>ANDROID_ATTRIBUTE_ORDER</order>
+-            </rule>
+-          </section>
+-          <section>
+-            <rule>
+-              <match>
+-                <AND>
+-                  <NAME>.*</NAME>
+-                  <XML_ATTRIBUTE />
+-                  <XML_NAMESPACE>.*</XML_NAMESPACE>
+-                </AND>
+-              </match>
+-              <order>BY_NAME</order>
+-            </rule>
+-          </section>
+-        </rules>
+-      </arrangement>
+-    </codeStyleSettings>
+-  </code_scheme>
+-</component>
+\ No newline at end of file
+Index: .idea/modules.xml
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+deleted file mode 100644
+--- a/.idea/modules.xml	(revision dc2cef7f95d525f49ec143a616b202b1996deef4)
++++ /dev/null	(revision dc2cef7f95d525f49ec143a616b202b1996deef4)
+@@ -1,11 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/Medicine-Time.iml" filepath="$PROJECT_DIR$/.idea/Medicine-Time.iml" />
+-      <module fileurl="file://$PROJECT_DIR$/Medicine-Time-.iml" filepath="$PROJECT_DIR$/Medicine-Time-.iml" group="Medicine-Time-" />
+-      <module fileurl="file://$PROJECT_DIR$/app/Medicine-Time--app.iml" filepath="$PROJECT_DIR$/app/Medicine-Time--app.iml" group="Medicine-Time-/app" />
+-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/runConfigurations.xml
+===================================================================
+diff --git a/.idea/runConfigurations.xml b/.idea/runConfigurations.xml
+deleted file mode 100644
+--- a/.idea/runConfigurations.xml	(revision dc2cef7f95d525f49ec143a616b202b1996deef4)
++++ /dev/null	(revision dc2cef7f95d525f49ec143a616b202b1996deef4)
+@@ -1,12 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="RunConfigurationProducerService">
+-    <option name="ignoredProducers">
+-      <set>
+-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.AllInPackageGradleConfigurationProducer" />
+-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestClassGradleConfigurationProducer" />
+-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestMethodGradleConfigurationProducer" />
+-      </set>
+-    </option>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: app/src/test/java/com/gautam/medicinetime/ExampleUnitTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/test/java/com/gautam/medicinetime/ExampleUnitTest.java b/app/src/test/java/com/gautam/medicinetime/ExampleUnitTest.java
+--- a/app/src/test/java/com/gautam/medicinetime/ExampleUnitTest.java	(revision dc2cef7f95d525f49ec143a616b202b1996deef4)
++++ b/app/src/test/java/com/gautam/medicinetime/ExampleUnitTest.java	(date 1685045823760)
+@@ -1,6 +1,6 @@
+ package com.gautam.medicinetime;
+ 
+-import org.junit.Test;
++import org.testng.annotations.Test;
+ 
+ import static org.junit.Assert.*;
+ 
+Index: app/src/main/java/com/gautam/medicinetime/Registration.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/gautam/medicinetime/Registration.java b/app/src/main/java/com/gautam/medicinetime/Registration.java
+new file mode 100644
+--- /dev/null	(date 1685045818529)
++++ b/app/src/main/java/com/gautam/medicinetime/Registration.java	(date 1685045818529)
+@@ -0,0 +1,16 @@
++package com.gautam.medicinetime;
++
++import android.os.Bundle;
++
++import androidx.appcompat.app.AppCompatActivity;
++
++public class Registration extends AppCompatActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_registration);
++
++
++    }
++}
+\ No newline at end of file
+Index: app/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/AndroidManifest.xml b/app/src/main/AndroidManifest.xml
+--- a/app/src/main/AndroidManifest.xml	(revision dc2cef7f95d525f49ec143a616b202b1996deef4)
++++ b/app/src/main/AndroidManifest.xml	(date 1685045818236)
+@@ -11,7 +11,7 @@
+         android:roundIcon="@mipmap/ic_launcher_round"
+         android:supportsRtl="true"
+         android:theme="@style/AppTheme.NoActionBar">
+-        <activity android:name=".medicine.MedicineActivity">
++        <activity android:name=".LoginActivity">
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+ 
+@@ -21,6 +21,8 @@
+         <!-- <activity android:name=".MainActivity" /> -->
+         <activity android:name=".addmedicine.AddMedicineActivity" />
+         <activity android:name=".alarm.ReminderActivity" />
++        <activity android:name=".medicine.MedicineActivity" />
++        <activity android:name=".Registration" />
+         <activity android:name=".report.MonthlyReportActivity"/>
+     </application>
+ 
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision dc2cef7f95d525f49ec143a616b202b1996deef4)
++++ b/.idea/misc.xml	(date 1685099183738)
+@@ -1,43 +1,9 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="NullableNotNullManager">
+-    <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
+-    <option name="myDefaultNotNull" value="androidx.annotation.NonNull" />
+-    <option name="myNullables">
+-      <value>
+-        <list size="12">
+-          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
+-          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+-          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
+-          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
+-          <item index="4" class="java.lang.String" itemvalue="javax.annotation.CheckForNull" />
+-          <item index="5" class="java.lang.String" itemvalue="androidx.annotation.Nullable" />
+-          <item index="6" class="java.lang.String" itemvalue="android.annotation.Nullable" />
+-          <item index="7" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNullable" />
+-          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.Nullable" />
+-          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableDecl" />
+-          <item index="10" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableType" />
+-          <item index="11" class="java.lang.String" itemvalue="com.android.annotations.Nullable" />
+-        </list>
+-      </value>
+-    </option>
+-    <option name="myNotNulls">
+-      <value>
+-        <list size="11">
+-          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+-          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+-          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
+-          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
+-          <item index="4" class="java.lang.String" itemvalue="androidx.annotation.NonNull" />
+-          <item index="5" class="java.lang.String" itemvalue="android.annotation.NonNull" />
+-          <item index="6" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNonNull" />
+-          <item index="7" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.NonNull" />
+-          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullDecl" />
+-          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullType" />
+-          <item index="10" class="java.lang.String" itemvalue="com.android.annotations.NonNull" />
+-        </list>
+-      </value>
+-    </option>
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="ProjectRootManager" version="2" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/build/classes" />
+   </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
++  <component name="ProjectType">
++    <option name="id" value="Android" />
++  </component>
+ </project>
+\ No newline at end of file
+Index: app/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/build.gradle b/app/build.gradle
+--- a/app/build.gradle	(revision dc2cef7f95d525f49ec143a616b202b1996deef4)
++++ b/app/build.gradle	(date 1685045784868)
+@@ -57,6 +57,7 @@
+ 
+ dependencies {
+     implementation fileTree(include: ['*.jar'], dir: 'libs')
++    testImplementation 'org.testng:testng:6.9.6'
+     androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
+         exclude group: 'com.android.support', module: 'support-annotations'
+     })
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision dc2cef7f95d525f49ec143a616b202b1996deef4)
++++ b/README.md	(date 1685045783658)
+@@ -5,7 +5,7 @@
+ Medicine Time is an native android application meant to aid the forgetful and busy with remembering to take their daily medications. It is designed for users who need a little help keeping track of their medication schedule and who are dedicated to keeping the schedule. The application allows the user to store pill objects and multiple alarms for those pills. Alarms have one time of day and can occur on multiple days of the week. The user is able to view their pills in a today view and can select date to view medicines. In addition, the application stores the history of when each medication was taken; this will aid the user in keeping track of their medication usage.
+ 
+ 
+-See GitHub issues. (https://github.com/gssinghgautam/Medicine-Time-/issues)
++
+ 
+ Use Cases and What Each Button Does:
+ 
+Index: app/src/main/java/com/gautam/medicinetime/LoginActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/gautam/medicinetime/LoginActivity.java b/app/src/main/java/com/gautam/medicinetime/LoginActivity.java
+new file mode 100644
+--- /dev/null	(date 1685045818466)
++++ b/app/src/main/java/com/gautam/medicinetime/LoginActivity.java	(date 1685045818466)
+@@ -0,0 +1,43 @@
++package com.gautam.medicinetime;
++
++import android.content.Intent;
++import android.os.Bundle;
++import android.view.View;
++import android.widget.Button;
++import android.widget.TextView;
++
++import androidx.appcompat.app.AppCompatActivity;
++
++import com.gautam.medicinetime.medicine.MedicineActivity;
++
++public class LoginActivity extends AppCompatActivity {
++
++    Button button;
++    TextView button2;
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_login);
++        button = (Button) findViewById(R.id.btnLogin);
++        button2 = (TextView) findViewById(R.id.lnkRegister);
++
++        button.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View v) {
++                Intent intent = new Intent(LoginActivity.this, MedicineActivity.class);
++                startActivity(intent);
++                finish();
++            }
++        });
++        button2.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View v) {
++                Intent intent = new Intent(LoginActivity.this, Registration.class);
++                startActivity(intent);
++
++            }
++        });
++
++    }
++}
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_login.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_login.xml b/app/src/main/res/layout/activity_login.xml
+new file mode 100644
+--- /dev/null	(date 1685045821572)
++++ b/app/src/main/res/layout/activity_login.xml	(date 1685045821572)
+@@ -0,0 +1,54 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    android:orientation="vertical" android:layout_width="match_parent"
++    android:layout_height="match_parent">
++    <TextView
++        android:id="@+id/loginscrn"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="80dp"
++        android:text="Login"
++        android:textSize="25dp"
++        android:textStyle="bold"
++        android:layout_gravity="center"/>
++    <TextView
++        android:id="@+id/fstTxt"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginLeft="100dp"
++        android:layout_marginTop="20dp"
++        android:text="Email"/>
++    <EditText
++        android:id="@+id/txtEmail"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginLeft="100dp"
++        android:ems="10"/>
++    <TextView
++        android:id="@+id/secTxt"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:text="Password"
++        android:layout_marginLeft="100dp" />
++    <EditText
++        android:id="@+id/txtPwd"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginLeft="100dp"
++        android:inputType="textPassword"
++        android:ems="10" />
++    <Button
++        android:id="@+id/btnLogin"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginLeft="100dp"
++        android:text="Login" />
++    <TextView android:id="@+id/lnkRegister"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="40dp"
++        android:text="New to User? Register here"
++        android:gravity="center"
++        android:textSize="20dp"
++        android:textColor="#3F51B5"/>
++</LinearLayout>
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_registration.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_registration.xml b/app/src/main/res/layout/activity_registration.xml
+new file mode 100644
+--- /dev/null	(date 1685045821729)
++++ b/app/src/main/res/layout/activity_registration.xml	(date 1685045821729)
+@@ -0,0 +1,59 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    android:orientation="vertical" android:layout_width="match_parent"
++    android:layout_height="match_parent">
++    <TextView
++        android:id="@+id/loginscrn"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="80dp"
++        android:text="Registration"
++        android:textSize="25dp"
++        android:textStyle="bold"
++        android:layout_gravity="center"/>
++    <TextView
++        android:id="@+id/fstTxt"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginLeft="100dp"
++        android:layout_marginTop="20dp"
++        android:text="Full Name"/>
++    <EditText
++        android:id="@+id/txtName"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginLeft="100dp"
++        android:ems="10"/>
++    <TextView
++        android:id="@+id/secTxt"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:text="Email"
++        android:layout_marginLeft="100dp" />
++    <EditText
++        android:id="@+id/txtEmail"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginLeft="100dp"
++        android:ems="10" />
++    <TextView
++        android:id="@+id/thirdTxt"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:text="Password"
++        android:layout_marginLeft="100dp" />
++    <EditText
++        android:id="@+id/txtPwd"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginLeft="100dp"
++        android:inputType="textPassword"
++        android:ems="10" />
++    <Button
++        android:id="@+id/btnLogin"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginLeft="100dp"
++        android:text="SignUp" />
++
++</LinearLayout>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	(revision dc2cef7f95d525f49ec143a616b202b1996deef4)
++++ b/.idea/vcs.xml	(date 1685046070227)
+@@ -2,6 +2,5 @@
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+     <mapping directory="" vcs="Git" />
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+   </component>
+ </project>
+\ No newline at end of file
+diff --git a/.idea/caches/build_file_checksums.ser b/.idea/caches/build_file_checksums.ser
+deleted file mode 100644
+index cca1aee6dc5ac1d959050d0d7fafc3e7e2ebfb40..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
